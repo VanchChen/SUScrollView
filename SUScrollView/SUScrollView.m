@@ -37,12 +37,12 @@ typedef struct {
     
     self.clipsToBounds = YES;
     
-    [self setup];
+    [self _setup];
     
     return self;
 }
 
-- (void)setup {
+- (void)_setup {
     _contentSize = CGSizeZero;
     _bounces = YES;
 }
@@ -155,7 +155,7 @@ typedef struct {
 }
 
 #pragma mark - Param Method
-- (POPAnimatableProperty *)boundsOriginProperty {
+- (POPAnimatableProperty *)_boundsOriginProperty {
     POPAnimatableProperty *prop = [POPAnimatableProperty propertyWithName:@"suscrollview.contentoffset" initializer:^(POPMutableAnimatableProperty *prop) {
         // read value
         prop.readBlock = ^(id obj, CGFloat values[]) {
@@ -230,7 +230,7 @@ typedef struct {
         }
         
         POPDecayAnimation *decayAnimation = [POPDecayAnimation animation];
-        decayAnimation.property = [self boundsOriginProperty];
+        decayAnimation.property = [self _boundsOriginProperty];
         decayAnimation.velocity = [NSValue valueWithCGPoint:velocity];
         [self pop_addAnimation:decayAnimation forKey:@"decelerate"];
         
@@ -258,7 +258,7 @@ typedef struct {
     [self pop_removeAllAnimations];
     
     POPSpringAnimation *springAnimation = [POPSpringAnimation animation];
-    springAnimation.property = [self boundsOriginProperty];
+    springAnimation.property = [self _boundsOriginProperty];
     if (anim) {
         springAnimation.velocity = [(POPDecayAnimation *)anim velocity];
     }
