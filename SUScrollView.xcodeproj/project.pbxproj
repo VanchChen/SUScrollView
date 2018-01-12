@@ -21,7 +21,7 @@
 		3ABEC3A3DCF217CEB60E371F /* Pods_AdventureScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventureScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF0272AC0B754928A1D889A /* Pods-AdventureScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		CC93C74032D0A1121F59D792 /* Pods-AdventureScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView.debug.xcconfig"; sourceTree = "<group>"; };
-		D69750D92008562F009F3BE5 /* AdventureScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69750D92008562F009F3BE5 /* SUScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69750DC2008562F009F3BE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D69750DD2008562F009F3BE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D69750DF2008562F009F3BE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		D69750D02008562F009F3BE5 = {
 			isa = PBXGroup;
 			children = (
-				D69750DB2008562F009F3BE5 /* AdventureScrollView */,
+				D69750DB2008562F009F3BE5 /* SUScrollView */,
 				D69750DA2008562F009F3BE5 /* Products */,
 				BCE32DE933C134464B9B9BF3 /* Pods */,
 				1589BC33DFAA8731D133E421 /* Frameworks */,
@@ -77,12 +77,12 @@
 		D69750DA2008562F009F3BE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D69750D92008562F009F3BE5 /* AdventureScrollView.app */,
+				D69750D92008562F009F3BE5 /* SUScrollView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D69750DB2008562F009F3BE5 /* AdventureScrollView */ = {
+		D69750DB2008562F009F3BE5 /* SUScrollView */ = {
 			isa = PBXGroup;
 			children = (
 				D69750F320085879009F3BE5 /* SUScrollView.h */,
@@ -97,15 +97,15 @@
 				D69750EA2008562F009F3BE5 /* Info.plist */,
 				D69750EB2008562F009F3BE5 /* main.m */,
 			);
-			path = AdventureScrollView;
+			path = SUScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D69750D82008562F009F3BE5 /* AdventureScrollView */ = {
+		D69750D82008562F009F3BE5 /* SUScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D69750EF2008562F009F3BE5 /* Build configuration list for PBXNativeTarget "AdventureScrollView" */;
+			buildConfigurationList = D69750EF2008562F009F3BE5 /* Build configuration list for PBXNativeTarget "SUScrollView" */;
 			buildPhases = (
 				9F92E5A14B94ABD9480723F1 /* [CP] Check Pods Manifest.lock */,
 				D69750D52008562F009F3BE5 /* Sources */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = AdventureScrollView;
+			name = SUScrollView;
 			productName = AdventureScrollView;
-			productReference = D69750D92008562F009F3BE5 /* AdventureScrollView.app */;
+			productReference = D69750D92008562F009F3BE5 /* SUScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D69750D42008562F009F3BE5 /* Build configuration list for PBXProject "AdventureScrollView" */;
+			buildConfigurationList = D69750D42008562F009F3BE5 /* Build configuration list for PBXProject "SUScrollView" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D69750D82008562F009F3BE5 /* AdventureScrollView */,
+				D69750D82008562F009F3BE5 /* SUScrollView */,
 			);
 		};
 /* End PBXProject section */
@@ -394,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D69750D42008562F009F3BE5 /* Build configuration list for PBXProject "AdventureScrollView" */ = {
+		D69750D42008562F009F3BE5 /* Build configuration list for PBXProject "SUScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D69750ED2008562F009F3BE5 /* Debug */,
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D69750EF2008562F009F3BE5 /* Build configuration list for PBXNativeTarget "AdventureScrollView" */ = {
+		D69750EF2008562F009F3BE5 /* Build configuration list for PBXNativeTarget "SUScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D69750F02008562F009F3BE5 /* Debug */,
