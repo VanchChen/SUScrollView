@@ -1,7 +1,7 @@
  platform :ios, '9.0'
 
-target 'AdventureScrollView' do
-   use_frameworks!
+ use_frameworks!
 
+ target 'SUScrollView' do
    pod 'pop'
-end
+ end

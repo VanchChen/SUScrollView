@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9848A868A368D26F0B6F9E7F /* Pods_AdventureScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABEC3A3DCF217CEB60E371F /* Pods_AdventureScrollView.framework */; };
+		05A8521EE7A9711F89655944 /* Pods_SUScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAD6157F0A2543DC6A63AB0 /* Pods_SUScrollView.framework */; };
 		D69750DE2008562F009F3BE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D69750DD2008562F009F3BE5 /* AppDelegate.m */; };
 		D69750E12008562F009F3BE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69750E02008562F009F3BE5 /* ViewController.m */; };
 		D69750E42008562F009F3BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69750E22008562F009F3BE5 /* Main.storyboard */; };
@@ -18,9 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3ABEC3A3DCF217CEB60E371F /* Pods_AdventureScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventureScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CF0272AC0B754928A1D889A /* Pods-AdventureScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView.release.xcconfig"; sourceTree = "<group>"; };
-		CC93C74032D0A1121F59D792 /* Pods-AdventureScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		B4044B97A5A10A3AE8E2C0D4 /* Pods-SUScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SUScrollView/Pods-SUScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		D69750D92008562F009F3BE5 /* SUScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69750DC2008562F009F3BE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D69750DD2008562F009F3BE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,6 +31,8 @@
 		D69750EB2008562F009F3BE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D69750F220085879009F3BE5 /* SUScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUScrollView.m; sourceTree = "<group>"; };
 		D69750F320085879009F3BE5 /* SUScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUScrollView.h; sourceTree = "<group>"; };
+		E39D9A6ED20238680A4B430A /* Pods-SUScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SUScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SUScrollView/Pods-SUScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		EDAD6157F0A2543DC6A63AB0 /* Pods_SUScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SUScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9848A868A368D26F0B6F9E7F /* Pods_AdventureScrollView.framework in Frameworks */,
+				05A8521EE7A9711F89655944 /* Pods_SUScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 		1589BC33DFAA8731D133E421 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3ABEC3A3DCF217CEB60E371F /* Pods_AdventureScrollView.framework */,
+				EDAD6157F0A2543DC6A63AB0 /* Pods_SUScrollView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,8 +58,8 @@
 		BCE32DE933C134464B9B9BF3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC93C74032D0A1121F59D792 /* Pods-AdventureScrollView.debug.xcconfig */,
-				7CF0272AC0B754928A1D889A /* Pods-AdventureScrollView.release.xcconfig */,
+				E39D9A6ED20238680A4B430A /* Pods-SUScrollView.debug.xcconfig */,
+				B4044B97A5A10A3AE8E2C0D4 /* Pods-SUScrollView.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SUScrollView/Pods-SUScrollView-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -185,7 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SUScrollView/Pods-SUScrollView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F92E5A14B94ABD9480723F1 /* [CP] Check Pods Manifest.lock */ = {
@@ -199,7 +199,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AdventureScrollView-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SUScrollView-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -218,7 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdventureScrollView/Pods-AdventureScrollView-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SUScrollView/Pods-SUScrollView-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -363,14 +363,14 @@
 		};
 		D69750F02008562F009F3BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC93C74032D0A1121F59D792 /* Pods-AdventureScrollView.debug.xcconfig */;
+			baseConfigurationReference = E39D9A6ED20238680A4B430A /* Pods-SUScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N95PFH5E8A;
-				INFOPLIST_FILE = AdventureScrollView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SUScrollView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vanch.AdventureScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = vanch.SUScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,14 +378,14 @@
 		};
 		D69750F12008562F009F3BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF0272AC0B754928A1D889A /* Pods-AdventureScrollView.release.xcconfig */;
+			baseConfigurationReference = B4044B97A5A10A3AE8E2C0D4 /* Pods-SUScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N95PFH5E8A;
-				INFOPLIST_FILE = AdventureScrollView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SUScrollView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vanch.AdventureScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = vanch.SUScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
